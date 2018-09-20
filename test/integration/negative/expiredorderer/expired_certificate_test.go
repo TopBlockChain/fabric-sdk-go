@@ -10,19 +10,19 @@ import (
 	"os"
 	"testing"
 
-	mspclient "github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	mspclient "github.com/blockchain/fabric-sdk-go/pkg/client/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/resmgmt"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
 	"google.golang.org/grpc/grpclog"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/mocks"
+	fabImpl "github.com/blockchain/fabric-sdk-go/pkg/fab"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -34,7 +34,7 @@ const (
 	org1AdminUser    = "Admin"
 	org2AdminUser    = "Admin"
 	configFilename   = "config_test.yaml"
-	expiredCertPath  = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/integration/negative/testdata/ordererOrganizations/example.com/expiredtlsca/expired.pem"
+	expiredCertPath  = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/integration/negative/testdata/ordererOrganizations/example.com/expiredtlsca/expired.pem"
 )
 
 var logger = logging.NewLogger("test-logger")

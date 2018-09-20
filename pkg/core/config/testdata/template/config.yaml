@@ -257,7 +257,7 @@ orderers:
 
 #    tlsCACerts:
       # Certificate location absolute path
-#      path: ${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+#      path: ${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
 
 
 #  orderer.example.com:
@@ -288,7 +288,7 @@ orderers:
 
 #    tlsCACerts:
       # Certificate location absolute path
-#      path: ${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+#      path: ${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/channel/crypto-config/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
 
 #
 # List of peers to send various requests to, including endorsement, query

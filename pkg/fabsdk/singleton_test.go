@@ -11,10 +11,10 @@ package fabsdk
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	configImpl "github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/modlog"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	configImpl "github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/logging/modlog"
 )
 
 func TestDefLoggerFactory(t *testing.T) {

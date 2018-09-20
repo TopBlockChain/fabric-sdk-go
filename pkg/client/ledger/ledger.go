@@ -22,19 +22,19 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/filter"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/filter"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/verifier"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/chconfig"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/channel"
+	contextImpl "github.com/blockchain/fabric-sdk-go/pkg/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/channel"
 	"github.com/pkg/errors"
 )
 

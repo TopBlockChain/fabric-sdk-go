@@ -18,7 +18,7 @@ import (
 	"sort"
 
 	"github.com/cactus/go-statsd-client/statsd"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/uber-go/tally"

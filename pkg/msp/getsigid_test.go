@@ -14,16 +14,16 @@ import (
 
 	"fmt"
 
-	fabricCaUtil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	providersFab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
+	fabricCaUtil "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	providersFab "github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab"
+	fcmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/pkg/errors"
 )
 

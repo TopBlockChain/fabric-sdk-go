@@ -9,7 +9,7 @@ package fab
 import (
 	"crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/retry"
 )
 
 // NetworkConfig provides a static definition of endpoint configuration network

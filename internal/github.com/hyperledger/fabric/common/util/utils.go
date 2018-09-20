@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/ptypes/timestamp"
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	factory "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
 )
 
 type alg struct {

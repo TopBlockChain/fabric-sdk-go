@@ -11,10 +11,10 @@ package chpvdr
 import (
 	"sync"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/chconfig"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/concurrent/lazycache"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
 )
 

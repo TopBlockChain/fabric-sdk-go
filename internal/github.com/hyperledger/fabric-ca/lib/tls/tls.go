@@ -27,10 +27,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	log "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	factory "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	log "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
 )
 
 // DefaultCipherSuites is a set of strong TLS cipher suites

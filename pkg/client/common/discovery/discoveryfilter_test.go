@@ -9,12 +9,12 @@ package discovery
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	mocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	fabImpl "github.com/blockchain/fabric-sdk-go/pkg/fab"
+	mocks "github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
 )
 
 type mockFilter struct {

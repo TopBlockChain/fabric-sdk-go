@@ -9,10 +9,10 @@ SPDX-License-Identifier: Apache-2.0
 package channel
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/greylist"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel/invoke"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/greylist"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 type clientTally interface{} // nolint

@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/lbp"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/events/client/lbp"
 
-	clientmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/mocks"
-	esdispatcher "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
-	servicemocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/mocks"
-	fabmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	clientmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/events/client/mocks"
+	esdispatcher "github.com/blockchain/fabric-sdk-go/pkg/fab/events/service/dispatcher"
+	servicemocks "github.com/blockchain/fabric-sdk-go/pkg/fab/events/service/mocks"
+	fabmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

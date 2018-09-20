@@ -1,6 +1,6 @@
-/*
-Copyright SecureKey Technologies Inc. All Rights Reserved.
+//Copyright SecureKey Technologies Inc. All Rights Reserved.
 
+/*
 SPDX-License-Identifier: Apache-2.0
 */
 
@@ -18,15 +18,15 @@ package channel
 import (
 	reqContext "context"
 	"time"
-
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/greylist"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/filter"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
+	
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel/invoke"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/greylist"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/filter"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/blockchain/fabric-sdk-go/pkg/context"
 	"github.com/pkg/errors"
 )
 

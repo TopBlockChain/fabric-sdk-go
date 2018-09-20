@@ -14,9 +14,9 @@ import (
 
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,15 +17,15 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/resource"
 	"github.com/pkg/errors"
 
 	"fmt"
 
 	"strings"
 
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // Descriptor ...

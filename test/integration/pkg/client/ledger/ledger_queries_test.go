@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/ledger"
-	providersFab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/ledger"
+	providersFab "github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

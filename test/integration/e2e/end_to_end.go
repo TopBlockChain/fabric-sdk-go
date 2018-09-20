@@ -11,23 +11,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/test/metadata"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/resmgmt"
 
-	mspclient "github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
+	mspclient "github.com/blockchain/fabric-sdk-go/pkg/client/msp"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	packager "github.com/hyperledger/fabric-sdk-go/pkg/fab/ccpackager/gopackager"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	packager "github.com/blockchain/fabric-sdk-go/pkg/fab/ccpackager/gopackager"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
 )
 
 const (
@@ -61,7 +61,7 @@ func setupAndRun(t *testing.T, createChannel bool, configOpt core.ConfigProvider
 		//If it is a local test then add entity mapping to config backend to parse URLs
 		configOpt = integration.AddLocalEntityMapping(configOpt)
 	}
-
+    fmt.
 	sdk, err := fabsdk.New(configOpt, sdkOpts...)
 	if err != nil {
 		t.Fatalf("Failed to create new SDK: %s", err)

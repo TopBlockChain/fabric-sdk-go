@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package fab
 
 import (
-	cb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	cb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // BlockEvent contains the data for the block event

@@ -13,12 +13,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/blockfilter"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/blockfilter/headertypefilter"
-	servicemocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/mocks"
-	cb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/events/service/blockfilter"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/events/service/blockfilter/headertypefilter"
+	servicemocks "github.com/blockchain/fabric-sdk-go/pkg/fab/events/service/mocks"
+	cb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 var sourceURL = "localhost:9051"

@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package headertypefilter
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	cb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/utils"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	cb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/utils"
 )
 
 var logger = logging.NewLogger("eventservice/blockfilter")

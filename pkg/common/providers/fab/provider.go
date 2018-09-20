@@ -11,12 +11,12 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/options"
 
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
 	"google.golang.org/grpc"
 )
 

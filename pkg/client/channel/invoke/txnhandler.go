@@ -9,16 +9,16 @@ package invoke
 import (
 	"bytes"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/options"
 	"github.com/pkg/errors"
 
-	selectopts "github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	selectopts "github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/options"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/peer"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/txn"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // TxnHeaderOptsProvider provides transaction header options which allow

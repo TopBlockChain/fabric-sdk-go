@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package defsvc
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 
-	discovery "github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	discovery "github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
 )
 
 // ProviderFactory represents the default SDK provider factory for services.

@@ -9,9 +9,9 @@ package chconfig
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/blockchain/fabric-sdk-go/pkg/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
 )
 

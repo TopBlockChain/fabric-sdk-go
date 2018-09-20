@@ -19,9 +19,9 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	factory "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	m "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
+	factory "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	m "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
 	"github.com/pkg/errors"
 )
 
@@ -268,6 +268,7 @@ func (msp *bccspmsp) GetDefaultSigningIdentity() (SigningIdentity, error) {
 // identity identified by the supplied identifier
 func (msp *bccspmsp) GetSigningIdentity(identifier *IdentityIdentifier) (SigningIdentity, error) {
 	// TODO
+	fmt.Println("bccspmsp",identifier)
 	return nil, errors.Errorf("no signing identity for %#v", identifier)
 }
 

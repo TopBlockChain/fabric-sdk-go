@@ -14,21 +14,21 @@ import (
 	"github.com/golang/protobuf/proto"
 	// TODO update metrics package with Fabric's copy, once officially released
 	// TODO and pinned into Go SDK with the below commented out import statement
-	//"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	//"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	contextImpl "github.com/blockchain/fabric-sdk-go/pkg/context"
+	fcmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/pathvar"
 
 	// TODO remove below metrics declaration once Fabric's copy is ready to be used
-	"github.com/hyperledger/fabric-sdk-go/test/performance/metrics"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/blockchain/fabric-sdk-go/test/performance/metrics"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc/credentials"
@@ -37,11 +37,11 @@ import (
 
 const (
 	channelID         = "myChannel"
-	peerTLSServerCert = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt"
-	peerTLSServerKey  = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key"
+	peerTLSServerCert = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.crt"
+	peerTLSServerKey  = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/server.key"
 
-	ordererTLSServerCert = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.crt"
-	ordererTLSServerKey  = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.key"
+	ordererTLSServerCert = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.crt"
+	ordererTLSServerKey  = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/fabric/v1/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/server.key"
 
 	testhost          = "peer0.org1.example.com"
 	testport          = 7051

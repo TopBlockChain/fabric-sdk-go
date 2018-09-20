@@ -20,8 +20,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/logging/metadata"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/logging/api"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/logging/metadata"
 )
 
 var rwmutex = &sync.RWMutex{}

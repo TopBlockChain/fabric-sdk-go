@@ -9,10 +9,10 @@ package fabricselection
 import (
 	"context"
 
-	discclient "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	discclient "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/options"
+	contextAPI "github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 type selectionFilter struct {

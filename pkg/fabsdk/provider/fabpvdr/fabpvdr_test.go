@@ -10,18 +10,18 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	coreMocks "github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
+	coreMocks "github.com/blockchain/fabric-sdk-go/pkg/core/mocks"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	peerImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
-	mspImpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/cryptosuite"
+	fabImpl "github.com/blockchain/fabric-sdk-go/pkg/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	peerImpl "github.com/blockchain/fabric-sdk-go/pkg/fab/peer"
+	mspImpl "github.com/blockchain/fabric-sdk-go/pkg/msp"
+	mspmocks "github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
 )
 
 func TestCreateInfraProvider(t *testing.T) {

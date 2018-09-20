@@ -8,9 +8,9 @@ package channel
 import (
 	"fmt"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel/invoke"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
 )
 
 func Example() {
@@ -23,6 +23,7 @@ func Example() {
 	response, err := c.Query(Request{ChaincodeID: "testCC", Fcn: "invoke", Args: [][]byte{[]byte("query"), []byte("data")}})
 	if err != nil {
 		fmt.Printf("failed to query chaincode: %s\n", err)
+		
 	}
 
 	fmt.Println(string(response.Payload))

@@ -11,17 +11,17 @@ package chpvdr
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/dynamicselection"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/fabricselection"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/staticdiscovery"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/dynamicselection"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/fabricselection"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/chconfig"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/chconfig"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

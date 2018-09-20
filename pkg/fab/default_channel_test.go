@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
 	"github.com/stretchr/testify/assert"
 )
 

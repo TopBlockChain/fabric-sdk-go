@@ -24,9 +24,9 @@ import (
 	"encoding/pem"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm/tls"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config/comm/tls"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	mb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
 	"github.com/stretchr/testify/assert"
 )
 

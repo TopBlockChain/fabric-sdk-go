@@ -15,14 +15,14 @@ import (
 
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/comm"
-	clientdisp "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/dispatcher"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
-	eventmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/mocks"
-	fabmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	cb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/comm"
+	clientdisp "github.com/blockchain/fabric-sdk-go/pkg/fab/events/client/dispatcher"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
+	eventmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/events/mocks"
+	fabmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
+	cb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

@@ -11,18 +11,18 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/retry"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/dynamicselection"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/dynamicselection"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
 	"github.com/stretchr/testify/require"
 )
 

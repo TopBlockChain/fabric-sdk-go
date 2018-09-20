@@ -12,13 +12,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/api"
-	esdispatcher "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/options"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/events/api"
+	esdispatcher "github.com/blockchain/fabric-sdk-go/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
 )
 

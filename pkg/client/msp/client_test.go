@@ -16,17 +16,17 @@ import (
 	"strings"
 	"testing"
 
-	contextApi "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	mspctx "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	mspImpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	contextApi "github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	mspctx "github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/cryptosuite"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
+	mspImpl "github.com/blockchain/fabric-sdk-go/pkg/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
 )
 
 const (

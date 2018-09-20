@@ -10,14 +10,14 @@ import (
 	"os"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	sdkCtx "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	sdkCtx "github.com/blockchain/fabric-sdk-go/pkg/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/resource"
+	mspmocks "github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
 )
 
 func Example() {

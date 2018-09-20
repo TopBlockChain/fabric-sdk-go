@@ -12,8 +12,8 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/attrmgr"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
+	"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/attrmgr"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/msp"
 	"github.com/stretchr/testify/require"
 )
 

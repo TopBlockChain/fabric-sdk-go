@@ -13,10 +13,10 @@ import (
 
 	cfsslapi "github.com/cloudflare/cfssl/api"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/api"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/api"
+	"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/util"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
 )
 
 var logger = logging.NewLogger("fabsdk/msp")

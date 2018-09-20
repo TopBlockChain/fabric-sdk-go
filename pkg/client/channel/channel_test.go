@@ -8,12 +8,11 @@ package channel
 
 import (
 	"testing"
+    "time"
 
-	"time"
-
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	fcmocks "github.com/blockchain/fabric-sdk-go/pkg/fab/mocks"
+	mspmocks "github.com/blockchain/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 )
 

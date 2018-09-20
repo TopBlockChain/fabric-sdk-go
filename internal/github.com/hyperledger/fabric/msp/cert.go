@@ -31,7 +31,7 @@ import (
 	"math/big"
 	"time"
 
-	utils "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	utils "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
 	"github.com/pkg/errors"
 )
 

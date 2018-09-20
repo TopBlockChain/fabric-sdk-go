@@ -9,8 +9,8 @@ package fab
 import (
 	reqContext "context"
 
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
-	mspCfg "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	mspCfg "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/msp"
 )
 
 // OrgAnchorPeer contains information about an anchor peer on this channel

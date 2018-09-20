@@ -11,10 +11,10 @@ import (
 
 	"fmt"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
 )
 
 const (

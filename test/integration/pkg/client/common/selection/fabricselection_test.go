@@ -13,17 +13,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/fabricselection"
-	selectionopts "github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	contextApi "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
-	cb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/fabricselection"
+	selectionopts "github.com/blockchain/fabric-sdk-go/pkg/client/common/selection/options"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/options"
+	contextApi "github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/common/cauthdsl"
+	cb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
 )
 
 const (

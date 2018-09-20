@@ -11,14 +11,14 @@ package channel
 import (
 	// TODO update metrics package with Fabric's copy, once officially released
 	// TODO and pinned into Go SDK with the below commented out import statement
-	//"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/greylist"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	//"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/metrics"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/channel/invoke"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/greylist"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 
 	// TODO remove below metrics declaration once Fabric's copy is ready to be used
-	"github.com/hyperledger/fabric-sdk-go/test/performance/metrics"
+	"github.com/blockchain/fabric-sdk-go/test/performance/metrics"
 	"github.com/uber-go/tally"
 )
 

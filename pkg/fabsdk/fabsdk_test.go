@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	configImpl "github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	mockapisdk "github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/test/mocksdkapi"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/resmgmt"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	configImpl "github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	mockapisdk "github.com/blockchain/fabric-sdk-go/pkg/fabsdk/test/mocksdkapi"
+	"github.com/blockchain/fabric-sdk-go/pkg/msp"
 	"github.com/pkg/errors"
 )
 

@@ -18,7 +18,7 @@
 	    * the command output also shows the environment and the package used for the benchmark exection:
 	        goos: darwin
             goarch: amd64
-            pkg: github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel
+            pkg: github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel
             
         UPDATE: there are now 2 benchmarks in this file, the first being the original one which runs with sequential executions and the second makes use of
         parallel client executions to simulate simultanous calls from the client (command line outputs below are updated to reflect these two calls). 
@@ -36,43 +36,43 @@
 $ go test -tags pprof -run=notest -bench=ExecuteTx*
 goos: darwin
 goarch: amd64
-pkg: github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel
+pkg: github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel
 BenchmarkExecuteTx-8           	    1000	   1318277 ns/op	  219871 B/op	    3023 allocs/op
 BenchmarkExecuteTxParallel-8   	    3000	    527525 ns/op	  218158 B/op	    3008 allocs/op
 PASS
-ok  	github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel	4.027s
+ok  	github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel	4.027s
 $ go test -tags pprof -run=notest -bench=ExecuteTx* -benchtime=10s
 goos: darwin
 goarch: amd64
-pkg: github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel
+pkg: github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel
 BenchmarkExecuteTx-8           	   10000	   1310724 ns/op	  219738 B/op	    3023 allocs/op
 BenchmarkExecuteTxParallel-8   	   30000	    475787 ns/op	  218055 B/op	    3008 allocs/op
 PASS
-ok  	github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel	37.898s
+ok  	github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel	37.898s
 $ go test -tags pprof -run=notest -bench=ExecuteTx* -benchtime=30s
 goos: darwin
 goarch: amd64
-pkg: github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel
+pkg: github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel
 BenchmarkExecuteTx-8           	   30000	   1308714 ns/op	  219803 B/op	    3023 allocs/op
 BenchmarkExecuteTxParallel-8   	  100000	    510626 ns/op	  218082 B/op	    3008 allocs/op
 PASS
-ok  	github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel	114.451s
+ok  	github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel	114.451s
 $ go test -tags pprof -run=notest -bench=ExecuteTx* -benchtime=60s
 goos: darwin
 goarch: amd64
-pkg: github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel
+pkg: github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel
 BenchmarkExecuteTx-8           	  100000	   1308884 ns/op	  219786 B/op	    3023 allocs/op
 BenchmarkExecuteTxParallel-8   	  200000	    499403 ns/op	  218031 B/op	    3008 allocs/op
 PASS
-ok  	github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel	249.928s
+ok  	github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel	249.928s
 $ go test -tags pprof -run=notest -bench=ExecuteTx* -benchtime=120s
 goos: darwin
 goarch: amd64
-pkg: github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel
+pkg: github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel
 BenchmarkExecuteTx-8           	  200000	   1298885 ns/op	  219818 B/op	    3023 allocs/op
 BenchmarkExecuteTxParallel-8   	  500000	    501436 ns/op	  218011 B/op	    3008 allocs/op
 PASS
-ok  	github.com/hyperledger/fabric-sdk-go/test/performance/pkg/client/channel	529.397s
+ok  	github.com/blockchain/fabric-sdk-go/test/performance/pkg/client/channel	529.397s
 
 #Benchmark data in Tally (using Prometheus report)
 The Channel Client's Execute and Query functions have been amended to collect tally counts and time spent executing these functions.
@@ -100,7 +100,7 @@ run times and navigate to the address above to see data being collected
 
 If you would like to collect perf data into your version of Prometheus server (example dedicated performance environment),
 make sure to add metrics calls using the 'metrics' packgage in this sdk
-ie: "github.com/hyperledger/fabric-sdk-go/test/performance/metrics"
+ie: "github.com/blockchain/fabric-sdk-go/test/performance/metrics"
 
 for an example usage on how to setup data collection in your client application, see: fabric-sdk-go/pkg/client/channel/chclient.go
 

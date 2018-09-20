@@ -20,10 +20,10 @@ import (
 
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	mspctx "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	mspapi "github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	mspctx "github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/msp"
+	mspapi "github.com/blockchain/fabric-sdk-go/pkg/msp/api"
 	"github.com/pkg/errors"
 )
 
@@ -414,6 +414,7 @@ func (c *Client) Revoke(request *RevocationRequest) (*RevocationResponse, error)
 //  signing identity
 func (c *Client) GetSigningIdentity(id string) (mspctx.SigningIdentity, error) {
 	im, _ := c.ctx.IdentityManager(c.orgName)
+	fmt.Println("client",id,"org",c.orgName)
 	si, err := im.GetSigningIdentity(id)
 	if err != nil {
 		if err == mspctx.ErrUserNotFound {

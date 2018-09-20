@@ -24,7 +24,7 @@ import (
 
 	"crypto/sha256"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 type aesPrivateKey struct {

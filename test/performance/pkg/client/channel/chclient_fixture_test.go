@@ -10,21 +10,21 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	mspImpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/cryptosuite"
+	fabImpl "github.com/blockchain/fabric-sdk-go/pkg/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
+	mspImpl "github.com/blockchain/fabric-sdk-go/pkg/msp"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/pathvar"
 	"google.golang.org/grpc/testdata"
 )
 
 const (
-	configPath = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/pkg/core/config/testdata/config_test.yaml"
+	configPath = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/pkg/core/config/testdata/config_test.yaml"
 )
 
 type testFixture struct {

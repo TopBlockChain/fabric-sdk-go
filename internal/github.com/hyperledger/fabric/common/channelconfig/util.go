@@ -13,7 +13,7 @@ package channelconfig
 import (
 	"math"
 
-	bccsp "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	bccsp "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
 )
 
 const (

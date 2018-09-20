@@ -11,18 +11,18 @@ package provider
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
-	"github.com/hyperledger/fabric-sdk-go/test/integration"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/discovery/dynamicdiscovery"
+	"github.com/blockchain/fabric-sdk-go/test/integration"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/provider/chpvdr"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/stretchr/testify/require"
 
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
+	contextImpl "github.com/blockchain/fabric-sdk-go/pkg/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk/factory/defsvc"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/blockchain/fabric-sdk-go/pkg/fabsdk"
 )
 
 func TestDynamicDiscovery(t *testing.T) {

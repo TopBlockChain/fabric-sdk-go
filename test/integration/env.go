@@ -9,17 +9,17 @@ package integration
 import (
 	"os"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/pathvar"
 )
 
 const (
-	configPath = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/config/config_test.yaml"
+	configPath = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/config/config_test.yaml"
 	//entityMatcherLocal config file containing entity matchers for local test
-	entityMatcherLocal = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test//fixtures/config/overrides/local_entity_matchers.yaml"
+	entityMatcherLocal = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test//fixtures/config/overrides/local_entity_matchers.yaml"
 	//ConfigPathSingleOrg single org version of 'configPath' for testing discovery
-	ConfigPathSingleOrg = "${GOPATH}/src/github.com/hyperledger/fabric-sdk-go/test/fixtures/config/config_e2e_single_org.yaml"
+	ConfigPathSingleOrg = "${GOPATH}/src/github.com/blockchain/fabric-sdk-go/test/fixtures/config/config_e2e_single_org.yaml"
 )
 
 // ConfigBackend contains config backend for integration tests

@@ -11,9 +11,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/lookup"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/pathvar"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/core"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config/lookup"
+	"github.com/blockchain/fabric-sdk-go/pkg/util/pathvar"
 )
 
 //ConfigFromBackend returns CryptoSuite config implementation for given backend

@@ -7,10 +7,10 @@ SPDX-License-Identifier: Apache-2.0
 package resource
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
-	protos_utils "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/utils"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/fab/txn"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	protos_utils "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/utils"
 	"github.com/pkg/errors"
 )
 

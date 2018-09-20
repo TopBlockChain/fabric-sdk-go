@@ -12,7 +12,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 	"google.golang.org/grpc"
@@ -20,15 +20,15 @@ import (
 	"google.golang.org/grpc/keepalive"
 	grpcstatus "google.golang.org/grpc/status"
 
-	ab "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/protos/orderer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
+	ab "github.com/blockchain/fabric-sdk-go/internal/github.com/hyperledger/fabric/protos/orderer"
+	"github.com/blockchain/fabric-sdk-go/pkg/client/common/verifier"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/errors/status"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/logging"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/context"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config/comm"
+	"github.com/blockchain/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/common"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

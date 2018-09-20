@@ -10,8 +10,8 @@ import (
 	reqContex "context"
 	"net/http"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	pb "github.com/hyperledger/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
+	pb "github.com/blockchain/fabric-sdk-go/third_party/github.com/hyperledger/fabric/protos/peer"
 )
 
 // MockTransactor provides an implementation of Transactor that exposes all its context.

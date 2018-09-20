@@ -14,7 +14,7 @@ Obtain the client SDK packages for Fabric and Fabric CA.
 go get -u github.com/hyperledger/fabric-sdk-go
 
 # Optional - populate vendor directory (if needed by your downstream vendoring solution)
-# cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+# cd $GOPATH/src/github.com/blockchain/fabric-sdk-go/
 # make populate
 ```
 
@@ -27,7 +27,7 @@ You're good to go, happy coding! Check out the examples for usage demonstrations
 - [Multi Org Test](test/integration/e2e/orgs/multiple_orgs_test.go): An example that has multiple organisations involved in transaction
 - [Dynamic Endorser Selection](test/integration/pkg/fabsdk/provider/sdk_provider_test.go): An example that uses dynamic endorser selection (based on chaincode policy)
 - [E2E PKCS11 Test](test/integration/e2e/pkcs11/e2e_test.go): E2E Test using a PKCS11 crypto suite and configuration
-- [CLI](https://github.com/securekey/fabric-examples/tree/master/fabric-cli/): An example CLI for Fabric built with the Go SDK.
+- [CLI](https://github.com/blockchain/fabric-sdk-go/fabcli/tree/master/fabric-cli/): An example CLI for Fabric built with the Go SDK.
 - More examples needed!
 
 ### Community
@@ -56,7 +56,7 @@ When the 'prev' code level is updated, the last tested fabric-sdk-go commit or t
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/blockchain/fabric-sdk-go/
 
 # Optional - Automatically install Go tools used by test suite
 # make depend
@@ -93,7 +93,7 @@ To contribute patches, you will need to clone (or add a remote) from [Gerrit](ht
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/blockchain/fabric-sdk-go/
 
 # Optional - Automatically install Go tools used by test suite
 # make depend
@@ -129,7 +129,7 @@ The following commands starts Fabric:
 
 ```bash
 # In the Fabric SDK Go directory
-cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/
+cd $GOPATH/src/github.com/blockchain/fabric-sdk-go/
 
 # Start fabric (stable tag)
 make dockerenv-stable-up
@@ -162,10 +162,10 @@ make integration-tests-local
 # Now since we removed this now, We will be using a different config file config_test_local.yaml
 # which has the Fabric CA server, orderer and peers pointed to localhost
 # It is also possible to run integration tests using go test directly. For example:
-#cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/integration/
+#cd $GOPATH/src/github.com/blockchain/fabric-sdk-go/test/integration/
 #go -args testLocal=true test
 
-#cd $GOPATH/src/github.com/hyperledger/fabric-sdk-go/test/integration/orgs
+#cd $GOPATH/src/github.com/blockchain/fabric-sdk-go/test/integration/orgs
 #go -args testLocal=true test
 
 # You should review test/scripts/integration.sh for options and details.

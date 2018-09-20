@@ -10,8 +10,8 @@ import (
 	"crypto/sha256"
 	"strconv"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/options"
+	"github.com/blockchain/fabric-sdk-go/pkg/common/providers/fab"
 )
 
 // cacheKey holds a key for the provider cache
